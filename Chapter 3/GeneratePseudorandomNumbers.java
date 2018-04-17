@@ -14,7 +14,8 @@ public class GeneratePseudorandomNumbers {
 			resultList[i] = (a*seed+b)%n;
 			seed = resultList[i];
 		}
-		System.out.println(Arrays.toString(resultList));
+		System.out.println(Arrays.toString(resultList)); //输出字符串内容的格式（最上面要import Arrays的package)
+														//直接打印resultList返回的是地址。
 	}
 
 }
